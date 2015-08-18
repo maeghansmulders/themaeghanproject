@@ -1,0 +1,191 @@
+body{
+    color: black;
+    font-family: helvetica, arial;
+    font-size: 15px;
+    background-color: white;
+    display: block; 
+}
+
+.jumbotron{
+	background-image:url(https://d13pix9kaak6wt.cloudfront.net/background/maeghansmulders_1314489425_62.jpg);
+	height: 850px;
+	text-align: center;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
+	padding-top: 250px;
+	padding-right: 55px;
+}
+
+.jumbotron p{
+    max-width: 600px;
+    float: right;
+}
+
+.jumbotron h1{
+	color: #fff;
+	font-size: 65px;
+	font-family: 'Shift', helvetica, arial;
+	font-weight: bold;
+	text-align: right;	
+}	
+
+.jumbotron p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
+	color: #fff;
+	font-family: 'Shift', helvetica, arial;
+	font-weight: lighter;
+	text-align: right;  		
+}
+			
+.form-style-8{
+    font-family: helvetica, arial;
+    width: 1450px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+    background: black;
+    font-family: helvetica, arial;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+
+.form-style-8 input[type="email"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: 100px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-style-8 textarea{
+    resize:none;
+    overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #4D4D4D;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #4D4D4D;
+    box-shadow: inset 0px 1px 0px 0px #4D4D4D;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: helvetica, arial;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'si';
+    src: url('images/socicon.eot');
+    src: url('images/socicon.eot?#iefix') format('embedded-opentype'),
+         url('images/socicon.woff') format('woff'),
+         url('images/socicon.ttf') format('truetype'),
+         url('images/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(images/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 6px;
+    color: black;
+    background-color: #ffffff;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-instagram:before {
+    content:'x';
+}
+
+.footer{
+	color: white;
+	background-color: black;	
+    padding: 70px;
+	font-family: helvetica, arial;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+}
