@@ -1,0 +1,240 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/maeghansmulders/Desktop/website-maeghan/style.css",
+		"/Users/maeghansmulders/Desktop/website-maeghan/index.html",
+		"/Users/maeghansmulders/Desktop/website-maeghan/bootstrap/css/bootstrap-theme.css",
+		"/Users/maeghansmulders/Desktop/website-maeghan/images/medium.png",
+		"/Users/maeghansmulders/Desktop/roof3.png",
+		"/Users/maeghansmulders/Desktop/website-maeghan/index.0_Maeghan",
+		"/Users/maeghansmulders/Desktop/Website 2.0_Maeghan",
+		"/Users/maeghansmulders/Desktop/<img src=\"https:::postmediacalgaryherald2.files.wo",
+		"/Users/maeghansmulders/Library/Caches/TemporaryItems/Outlook Temp/faq.json",
+		"/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/sys/kdebug.h",
+		"/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/network/IONetworkStats.h",
+		"/Users/maeghansmulders/Desktop/shake.html",
+		"/Users/maeghansmulders/Desktop/Project.html",
+		"/Users/maeghansmulders/Movies/iMovie Library.imovielibrary/2014-07-03/CurrentVersion.imovieevent",
+		"/Users/maeghansmulders/Movies/iMovie Library.imovielibrary/2014-03-27/CurrentVersion.imovieevent",
+		"/Users/maeghansmulders/Movies/iMovie Library.imovielibrary/2014-03-27/Dan's Tribute Movie/CurrentVersion.imovieevent",
+		"/Users/maeghansmulders/Desktop/com.apple.iMovie7.plist",
+		"/Users/maeghansmulders/Desktop/com.apple.iMovie8.plist",
+		"/Users/maeghansmulders/Desktop/com.apple.iMovieApp.LSSharedFileList.plist",
+		"/Users/maeghansmulders/Desktop/com.apple.iMovieApp.plist",
+		"/Users/maeghansmulders/Movies/iMovie Library.imovielibrary/CurrentVersion.flexolibrary",
+		"/Users/maeghansmulders/Desktop/wp-config.php",
+		"/Users/maeghansmulders/Desktop/wp-settings.php",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/maeghansmulders/Desktop/.htaccess",
+		"/Users/maeghansmulders/Code/dashboard/package.json",
+		"/Users/maeghansmulders/Code/dashboard/index.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".body",
+			"				"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style.css",
+				"style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
