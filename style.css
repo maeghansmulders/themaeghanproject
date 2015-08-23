@@ -4,6 +4,7 @@ body{
     font-size: 15px;
     background-color: white;
     display: block; 
+
 }
 
 .jumbotron{
@@ -38,69 +39,24 @@ body{
 	color: #fff;
 	font-family: 'Shift', helvetica, arial;
 	font-weight: lighter;
-	text-align: right;  		
-}
-			
-.form-style-8{
-    font-family: helvetica, arial;
-    width: 1450px;
-    padding: 30px;
-    background: #FFFFFF;
-    margin: 50px auto 0;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
-
-}
-.form-style-8 h2{
-    background: black;
-    font-family: helvetica, arial;
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
-    padding: 20px;
-    margin: -30px -30px 30px -30px;
+	text-align: right;  
 }
 
-.form-style-8 input[type="email"],
-.form-style-8 input[type="search"],
-.form-style-8 input[type="time"],
-.form-style-8 input[type="url"],
-.form-style-8 input[type="password"],
-.form-style-8 textarea,
-.form-style-8 select 
+.work-links .work-item{
+    width: 25%;
+    height: 275px;
+    float:left;
+    background-size:cover;
+    padding:30px;
+    color: black;
+    background-color: #FDFDFD;
+}
 
-{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    display: 100px;
-    width: 100%;
-    padding: 5px;
-    border: none;
-    border-bottom: 1px solid #ddd;
-    background: transparent;
-    margin-bottom: 10px;
-    font: 16px Arial, Helvetica, sans-serif;
-    height: 45px;
+.blog p{
+    padding-right: 90px;
+    padding-top: 25px;
 }
-.form-style-8 textarea{
-    resize:none;
-    overflow: hidden;
-}
-.form-style-8 input[type="button"], 
-.form-style-8 input[type="submit"]{
-    -moz-box-shadow: inset 0px 1px 0px 0px #4D4D4D;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #4D4D4D;
-    box-shadow: inset 0px 1px 0px 0px #4D4D4D;
-    background-color: black;
-    display: inline-block;
-    cursor: pointer;
-    color: white;
-    font-family: helvetica, arial;
-    font-size: 14px;
-    text-decoration: none;
-}
+
 
 @font-face {
     font-family: 'si';
