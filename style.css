@@ -60,13 +60,14 @@ body{
     padding:30px;
     background:rgba(255,255,255, 0.6);
     text-decoration:none;
+
 }
 
 .work-item:hover .hover{
     opacity:1;
     text-align:justify;
     color:#000000;
-    font-size:20px;
+    font-size:14px;
     padding:30px;
 }
 
