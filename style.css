@@ -43,6 +43,11 @@ body{
 	text-align: right;  
 }
 
+#wall_1 {
+  background: url(https://images.unsplash.com/uploads/1413240567149aecde9a1/c0dce58d?q=80&fm=jpg&s=74b0dedaf09cd01be46a673765e1c01b) repeat;
+  background-attachment: fixed;
+}
+
 .work-links .work-item{
     width: 25%;
     height: 275px;
@@ -63,7 +68,6 @@ body{
     text-decoration:none;
 
 }
-
 .work-item:hover .hover{
     opacity:1;
     text-align:justify;
@@ -72,11 +76,15 @@ body{
     padding:30px;
 }
 
+
+#wall_2{
+  background: url(https://images.unsplash.com/34/ddTzoX58Q153kjaitXl4_ny.jpg?q=80&fm=jpg&s=fb5cd82a0d3b941deac309f93eb34375) repeat;
+  background-attachment: fixed; 
+
 .blog p{
     padding-right: 90px;
     padding-top: 25px;
 }
-
 
 @font-face {
     font-family: 'si';
@@ -153,6 +161,11 @@ body{
 }
 .soc-instagram:before {
     content:'x';
+}
+
+#wall_3 {
+  background:url(https://images.unsplash.com/9/bob-van-aubel-ray-bans.jpg?q=80&fm=jpg&s=3c8e975b7a2e7b92bff336e5ca954491) repeat;
+  background-attachment: fixed;
 }
 
 .Contact
