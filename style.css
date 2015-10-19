@@ -4,7 +4,15 @@ body{
     font-size: 15px;
     background-color: white;
     display: block; 
+    font-family: "Roboto Slab", serif;
+}
 
+h3{
+  width:100%;
+  border-bottom:1px solid #eee;
+  padding-bottom:12px;
+  margin-bottom:18px;
+  font-size:36px;
 }
 
 .jumbotron{
@@ -30,6 +38,9 @@ body{
 	font-family: 'Shift', helvetica, arial;
 	font-weight: bold;
 	text-align: right;	
+  border-bottom:0;
+  padding:0;
+  margin:0;
 }	
 
 .jumbotron p{
@@ -41,11 +52,6 @@ body{
 	font-family: 'Shift', helvetica, arial;
 	font-weight: lighter;
 	text-align: right;  
-}
-
-#wall_1 {
-  background: url(https://images.unsplash.com/uploads/1413240567149aecde9a1/c0dce58d?q=80&fm=jpg&s=74b0dedaf09cd01be46a673765e1c01b) repeat;
-  background-attachment: fixed;
 }
 
 .work-links .work-item{
@@ -74,12 +80,6 @@ body{
   color:#000000;
   font-size:14px;
   padding:30px;
-}
-
-
-#wall_2{
-  background: url(https://images.unsplash.com/34/ddTzoX58Q153kjaitXl4_ny.jpg?q=80&fm=jpg&s=fb5cd82a0d3b941deac309f93eb34375) repeat;
-  background-attachment: fixed; 
 }
 
 .blog p{
@@ -164,11 +164,6 @@ body{
   content:'x';
 }
 
-#wall_3 {
-  background:url(https://images.unsplash.com/9/bob-van-aubel-ray-bans.jpg?q=80&fm=jpg&s=3c8e975b7a2e7b92bff336e5ca954491) repeat;
-  background-attachment: fixed;
-}
-
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*body { background:rgb(30,30,40); }*/
@@ -250,4 +245,68 @@ input[type="submit"]:hover {
 
 .footer .btn-top:hover{
   text-decoration:none;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h3 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("https://images.unsplash.com/9/bob-van-aubel-ray-bans.jpg?q=80&fm=jpg&s=3c8e975b7a2e7b92bff336e5ca954491");
+}
+section.module.parallax-2 {
+  background-image: url("https://images.unsplash.com/photo-1413708617479-50918bc877eb?q=80&fm=jpg&s=faaf73c7c8a3be1883b07ecd6e19473a");
+}
+section.module.parallax-3 {
+  background-image: url("https://images.unsplash.com/uploads/14131528928453585b6dc/829d24cf?q=80&fm=jpg&s=185ea33e5d7925617f517930b36df4ef");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h2 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h2 {
+    font-size: 160px;
+  }
 }
