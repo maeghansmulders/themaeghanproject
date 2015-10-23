@@ -8,18 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/msmulder/Downloads/simple-parallax-effect-source/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9744,
+				"buffer_size": 5119,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 5874,
+				"buffer_size": 6157,
 				"line_ending": "Unix"
 			}
 		}
@@ -56,10 +56,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/msmulder/Documents/CODE FOLDER/themaeghanproject"
+		"/Users/msmulder/Documents/CODE FOLDER/themaeghanproject",
+		"/Users/msmulder/Documents/CODE FOLDER/themaeghanproject/images"
 	],
 	"file_history":
 	[
+		"/Users/msmulder/Documents/CODE FOLDER/themaeghanproject/style.css",
+		"/Users/msmulder/Downloads/simple-parallax-effect-source/index.html",
 		"/Users/msmulder/Downloads/App Store-Descriptions_ZH-CN/Chrome App Store/Thumbs.db",
 		"/Users/msmulder/Desktop/themaeghanproject/style(Oct).css",
 		"/Users/msmulder/Desktop/themaeghanproject/index(Oct).html",
@@ -70,7 +73,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -84,6 +87,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"medium",
+			"h3",
+			"h2",
+			"h2'",
+			"h1",
+			"h1	",
+			"h1",
+			"h2",
+			"h1",
+			"True Key",
 			"body",
 			".form",
 			"black"
@@ -104,54 +117,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/msmulder/Downloads/simple-parallax-effect-source/index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9744,
+						"buffer_size": 5119,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5839,
-								5775
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1611.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								2774,
+								2774
 							]
 						],
 						"settings":
@@ -160,10 +143,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 843.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -217,6 +230,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"style.css",
+				"style.css"
+			]
 		],
 		"width": 0.0
 	},
@@ -246,7 +263,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 248.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
