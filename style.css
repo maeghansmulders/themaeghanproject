@@ -54,13 +54,21 @@ h3{
 	text-align: right;  
 }
 
-.work p{
-  padding: 25px;
+.container p{
+  padding-bottom: 45px;
+
 }
 
-.blog p{
-    padding-right: 90px;
-    padding-top: 25px;
+.work {
+  padding-bottom: 45px;
+  padding-top: 45px;
+
+}
+
+.blog {
+padding-top: 45px;
+padding-bottom: 45px;
+
 }
 
 @font-face {
