@@ -54,24 +54,8 @@ h3{
 	text-align: right;  
 }
 
-.work-links .work-item{
-    width: 25%;
-    height: 275px;
-    float:left;
-    background-size:cover;
-    color: black;
-    background-color: #FDFDFD;
-    position:relative;
-}
-
-.work-item .hover{
-  opacity:0;
-  position:absolute;
-  width:100%;
-  height:100%;
-  padding:30px;
-  background:rgba(255,255,255, 0.6);
-  text-decoration:none;
+.work p{
+  padding: 25px;
 }
 
 .blog p{
