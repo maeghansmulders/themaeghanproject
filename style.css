@@ -1,15 +1,16 @@
 body{
     color: black;
-    font-family: helvetica, arial;
     font-size: 15px;
     background-color: white;
     display: block; 
-    font-family: "Roboto Slab", serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2{
-  font-family: 'Shift', helvetica, arial;
-
+h1, h2, h3, h4, h5{
+  font-family: 'EB Garamond', serif;
+  color:rgba(26,26,26,.9);
+  margin-top:0;
+  margin-bottom:18px;
 }
 
 h3{
@@ -18,6 +19,17 @@ h3{
   padding-bottom:12px;
   margin-bottom:18px;
   font-size:36px;
+}
+
+p{
+  color:rgba(26, 26, 26, 0.6);
+  font-size:16px;
+  line-height:1.5;
+  margin-bottom:15px;
+}
+
+.container{
+  padding:40px 0 ;
 }
 
 .jumbotron{
@@ -30,6 +42,7 @@ h3{
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
 	padding-top: 250px;
 	padding-right: 55px;
+  margin-bottom:0;
 }
 
 .jumbotron p{
@@ -40,7 +53,6 @@ h3{
 .jumbotron h1{
 	color: white;
 	font-size: 65px;
-	font-family: 'Shift', helvetica, arial;
 	font-weight: bold;
 	text-align: right;	
   border-bottom:0;
@@ -54,20 +66,52 @@ h3{
 	color: black;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
 	color: black;
-	font-family: 'Shift', helvetica, arial;
 	font-weight: lighter;
 	text-align: right;  
 }
 
-.container p{
-  padding-bottom: 45px;
-
+.center{
+  text-align:center;
 }
 
-.work {
-  padding-bottom: 45px;
-  padding-top: 45px;
+.work-item{
+  position:relative;
+  display:inline-block;
+}
 
+.work-item .content{
+  z-index: 1;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  text-align:center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.work-item p{
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.work-item img{
+  width:260px;
+  height:260px;
+  -webkit-filter: grayscale(1)  brightness(1);
+  transition: -webkit-filter .3s ease-out;
+  width:23 %;
+}
+
+.work-item:hover img{
+  -webkit-filter: grayscale(0) brightness(0.7);
 }
 
 .blog {
@@ -153,14 +197,13 @@ padding-bottom: 45px;
   content:'x';
 }
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Source+Sans+Pro);
 
 /*body { background:rgb(30,30,40); }*/
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
   color:black;
-  font-family: Helvetica, Arial;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
@@ -183,31 +226,11 @@ textarea {
   resize:vertical;
 }
 
-input[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica;
-  width: 100%;
-  background:black;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-
-input[type="submit"]:hover {
-  background:black;
-}
 
 .footer{
 	color: white;
 	background-color: black;	
   padding: 0 70px 70px;
-	font-family: helvetica, arial;
 	font-size: 12px;
 	font-weight: 400;
 	text-align: center;
@@ -239,27 +262,14 @@ input[type="submit"]:hover {
 
 section.module:last-child {
   margin-bottom: 0;
-  font-family: 'Montserrat', Arial, Helvetica;
 
 }
 section.module h3 {
   margin-bottom: 40px;
   font-size: 20px;
-  font-family: 'Montserrat', Arial, Helvetica;
-
-}
-section.module p {
-  margin-bottom: 40px;
-  font-size: 12px;
-  font-weight: 300;
-  font-family: 'Montserrat', Arial, Helvetica;
-
 }
 section.module p:last-child {
   margin-bottom: 0;
-}
-section.module.content {
-  padding: 40px 0;
 }
 section.module.parallax {
   height: 600px;
@@ -274,7 +284,6 @@ section.module.parallax {
 section.module.parallax h2 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 25px;
-  font-family: 'Montserrat', Arial, Helvetica;
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -291,19 +300,22 @@ section.module.parallax-3 {
   background-image: url("https://images.unsplash.com/uploads/14131528928453585b6dc/829d24cf?q=80&fm=jpg&s=185ea33e5d7925617f517930b36df4ef");
 }
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h2 {
-    font-size: 96px;
-  }
+button,
+input[type=submit]{
+  background: rgba(26,26,26,0);
+  border: 2px solid rgba(26,26,26,.9);
+  color:rgba(26,26,26,.9);
+  padding: 12px;
+  transition: all .3s ease-out;
 }
-@media all and (min-width: 960px) {
-  section.module.parallax h2 {
-    font-size: 160px;
-  }
+
+button:hover, input[type=submit]:hover{
+  color:white;
+  background: rgba(26,26,26,.9);
+
+
+}
+
+input[type=submit]{
+  width:100%;
 }
