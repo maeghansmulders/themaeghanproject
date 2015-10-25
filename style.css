@@ -29,7 +29,8 @@ p{
 }
 
 .container{
-  padding:40px 0 ;
+  padding:40px 0;
+  position:relative;
 }
 
 .jumbotron{
@@ -91,7 +92,11 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction:column;
+  flex-direction:column; opacity: 0; transition:opacity .3s ease-out;
+}
+
+.work-item:hover .content{
+  opacity: 1;
 }
 
 .work-item p{
@@ -237,6 +242,11 @@ textarea {
 	display: block;
 }
 
+.footer p{
+  color: white;
+
+}
+
 .footer .btn-top{
   background:white;
   color:black;
@@ -248,7 +258,10 @@ textarea {
   display:inline-block;
   font-weight:bold;
   line-height:15px;
-  margin: -25px 0 50px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -25px;
 }
 
 .footer .btn-top .glyphicon{
@@ -312,7 +325,17 @@ input[type=submit]{
 button:hover, input[type=submit]:hover{
   color:white;
   background: rgba(26,26,26,.9);
+}
 
+button.white{
+  color: white;
+  border-color: white;
+  background: rgba(255,255,255,0);
+}
+
+button.white:hover{
+  color:black;
+  background-color: white;
 
 }
 
