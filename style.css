@@ -1,5 +1,5 @@
 body{
-    color: black;
+    color: white;
     font-size: 15px;
     background-color: white;
     display: block; 
@@ -39,7 +39,7 @@ p{
 	height: 850px;
 	text-align: center;
 	background-repeat: no-repeat;
-	color: black;
+	color: white;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
 	padding-top: 250px;
 	padding-right: 55px;
@@ -66,7 +66,7 @@ p{
 	text-align: center;
 	color: black;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
-	color: black;
+	color: white;
 	font-weight: lighter;
 	text-align: right;  
 }
