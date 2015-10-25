@@ -7,6 +7,11 @@ body{
     font-family: "Roboto Slab", serif;
 }
 
+h2{
+  font-family: 'Shift', helvetica, arial;
+
+}
+
 h3{
   width:100%;
   border-bottom:1px solid #eee;
@@ -21,7 +26,7 @@ h3{
 	height: 850px;
 	text-align: center;
 	background-repeat: no-repeat;
-	color: white;
+	color: black;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
 	padding-top: 250px;
 	padding-right: 55px;
@@ -33,7 +38,7 @@ h3{
 }
 
 .jumbotron h1{
-	color: #fff;
+	color: white;
 	font-size: 65px;
 	font-family: 'Shift', helvetica, arial;
 	font-weight: bold;
@@ -46,9 +51,9 @@ h3{
 .jumbotron p{
 	font-size: 20px;
 	text-align: center;
-	color: white;
+	color: black;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
-	color: #fff;
+	color: black;
 	font-family: 'Shift', helvetica, arial;
 	font-weight: lighter;
 	text-align: right;  
@@ -245,7 +250,7 @@ section.module h3 {
 }
 section.module p {
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   font-family: 'Montserrat', Arial, Helvetica;
 
