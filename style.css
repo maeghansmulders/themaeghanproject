@@ -75,9 +75,14 @@ p{
   text-align:center;
 }
 
+.work{
+  padding: 50px 70px 100px 0px;
+}
+
 .work-item{
   position:relative;
   display:inline-block;
+
 }
 
 .work-item .content{
@@ -244,6 +249,7 @@ textarea {
 
 .footer p{
   color: white;
+  font-size: 12px;
 
 }
 
@@ -259,7 +265,7 @@ textarea {
   font-weight:bold;
   line-height:15px;
   position: absolute;
-  top: 0;
+  top: -25px;
   left: 50%;
   margin-left: -25px;
 }
@@ -278,14 +284,14 @@ section.module:last-child {
 
 }
 section.module h3 {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   font-size: 20px;
 }
 section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.parallax {
-  height: 600px;
+  height: 400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -296,8 +302,8 @@ section.module.parallax {
 }
 section.module.parallax h2 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 25px;
-  line-height: 600px;
+  font-size: 60px;
+  line-height: 300px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -336,7 +342,6 @@ button.white{
 button.white:hover{
   color:black;
   background-color: white;
-
 }
 
 input[type=submit]{
