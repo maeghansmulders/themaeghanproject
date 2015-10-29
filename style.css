@@ -31,6 +31,7 @@ p{
 .container{
   padding:40px 0;
   position:relative;
+
 }
 
 .jumbotron{
@@ -39,20 +40,16 @@ p{
 	height: 850px;
 	text-align: center;
 	background-repeat: no-repeat;
-	color: white;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
 	padding-top: 250px;
 	padding-right: 55px;
   margin-bottom:0;
 }
 
-.jumbotron p{
-    max-width: 600px;
-    float: right;
-}
 
 .jumbotron h1{
-	color: white;
+	color:rgba(26, 26, 26, 0.6);
+  font-family: 'Source Sans Pro', sans-serif;
 	font-size: 65px;
 	font-weight: bold;
 	text-align: right;	
@@ -64,11 +61,13 @@ p{
 .jumbotron p{
 	font-size: 20px;
 	text-align: center;
-	color: black;
 	text-shadow:1px 1px 1px rgba(0, 0, 0, .5);
 	color: white;
 	font-weight: lighter;
 	text-align: right;  
+  max-width: 600px;
+  float: right;
+  color:rgba(26, 26, 26, 0.6);
 }
 
 .center{
@@ -302,9 +301,10 @@ section.module.parallax {
 }
 section.module.parallax h2 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 60px;
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 300px;
-  font-weight: 700;
+  font-weight: 200;
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
