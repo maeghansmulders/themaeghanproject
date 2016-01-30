@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+ErrorDocument 404 http://www.maeghansmulders.com
