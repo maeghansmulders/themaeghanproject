@@ -138,6 +138,14 @@ padding-bottom: 45px;
 
 }
 
+.blog-images{
+  width:260px;
+  height:260px;
+  -webkit-filter: grayscale(1)  brightness(1);
+  transition: -webkit-filter .3s ease-out;
+  width:23 %;
+}
+
 /*body { background:rgb(30,30,40); }*/
 form { max-width:420px; margin:50px auto; }
 
@@ -247,7 +255,6 @@ textarea {
 
 .footer{
 	color: white;
-	background-color: black;	
   padding: 0 70px 70px;
 	font-size: 12px;
 	font-weight: 400;
@@ -276,7 +283,8 @@ textarea {
   position: absolute;
   top: -25px;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -25px;
+
 }
 
 .footer .btn-top .glyphicon{
