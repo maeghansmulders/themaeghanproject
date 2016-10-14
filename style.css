@@ -24,7 +24,7 @@ h3{
 
 p{
   color:rgba(26, 26, 26, 0.6);
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Cabin', sans-serif;
   font-size:16px;
   line-height:1.5;
   margin-bottom:15px;
@@ -125,7 +125,6 @@ p{
   height:260px;
   -webkit-filter: grayscale(1)  brightness(1);
   transition: -webkit-filter .3s ease-out;
-  width:23 %;
 }
 
 .work-item:hover img{
@@ -133,17 +132,28 @@ p{
 }
 
 .blog {
-padding-top: 45px;
-padding-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
 
+.blog-images-container {
+  text-align: center;
+  padding-top: 30px;
 }
 
 .blog-images{
-  width:260px;
+  width:400px;
+  max-width: 30%;
   height:260px;
-  -webkit-filter: grayscale(1)  brightness(1);
-  transition: -webkit-filter .3s ease-out;
-  width:23 %;
+  display:inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+
+.medium-read-more-button-container {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
 }
 
 /*body { background:rgb(30,30,40); }*/
